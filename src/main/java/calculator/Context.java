@@ -42,6 +42,6 @@ public class Context {
 
     @Override
     public String toString() {
-        return "x= " + x + "    y= " + y + "    op= " + operation + "   state = " + state.getClass().getName();
+        return x + " " + operation + " " + y;
     }
 }
